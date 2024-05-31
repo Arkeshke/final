@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Inter:regular,500,700&display=swap" rel="stylesheet" />
+    <title>Cootels</title>
+</head>
+<body class="body" >
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <a href="" class="header__logo">Cootels</a>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Rooms</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Reservation</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Contacs</a>
+                        </li>
+                        <li class="burger">
+                            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                        </li>
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a >Rooms</a>
+                            <a >Reservation</a>
+                            <a>Contacs</a>
+                            
+                        </div>
+                    </ul>
+                </nav>
+                <button type="submit" class="header__button button" id="myBtn" style="color: white;">
+                    Get Started
+                </button>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p class="modal-title">Hot Price</p>
+                        <p class="modal-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nobis dolorem deserunt blanditiis impedit! Consequatur nobis dolore, eaque eum nisi cum veniam pariatur doloremque voluptate est! Dolores vitae obcaecati quas repudiandae mollitia autem minima dolore aliquid ab, laborum dolor velit assumenda consequuntur nostrum voluptas deserunt! Voluptatum fuga eveniet itaque reiciendis vero quia recusandae minus vitae aliquam expedita optio sint voluptates sit sed eum earum qui hic dicta, provident animi. Tempora aliquid hic voluptas eius fugiat tenetur mollitia atque qui earum, assumenda fugit nemo odio, praesentium illo nostrum quidem quos natus, rerum sed ipsam aperiam! Repellat fugiat perspiciatis minus eveniet soluta!</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="page">
+            <section class="page__section page__section_1">
+                <div class="page-section-1__container _container">
+                    <div class="page__section-body">
+                        <h2 class="page__section-h2">Nature, Warmth, and Beauty in One Space</h2>
+                        <p class="page__section-p">One place to release all the stress, bring back happines, and get back to nature. We provide the best room and nature for you. Come visit us anytime you want.</p>
+                        <button class="page__section-button" id="show-modal" >Reservation</button>
+                    </div>
+                    <div class="page__section-img ibg">
+                        <img class="ibg__img_first img-main" src="lib/img/First-img-house.png" alt="error">
+                    </div>
+                </div>
+            </section>
+            <section class="page__section page__section_2">
+                <div class="page-section-2__container _container">
+                    <div class="page__section-body ps-2">
+                        <h2 class="page__section-h2 ps-2-h">Cozy and Down to Earth Cootage Hotel in Norway.</h2>
+                        <p class="page__section-p ps-2-p">Our Cootage Hotel is an intimate hideway concieved for dicerning travelers. It faces directly the unique and spectacular panorama of the Hallerbos Jungle. <br> <br> Cootels extends along a private, quiet, and beautiful nature. Stay away from crowd and enjoy the cozy and beauty with us.</p>
+                        <button class="page__section-button" id="show-modal" >Reservation</button>
+                    </div>
+                    <div class="page__section-img-2 ibg">
+                        <img class="ibg__img_second img-main" src="lib/img/Second-img-house.png" alt="error">
+                    </div>
+                </div>
+            </section>
+            <section class="page__section page__section_3">
+                <div class="page-section-3__container _container">
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'London')">Cabin Activities</button>
+                        <button class="tablinks" onclick="openCity(event, 'Paris')">100% Organic Food</button>
+                    </div>
+                    <div id="London" class="tabcontent">
+                        <div class="tabcontent-body">
+                            <h3 class="tab__h3">Cabin Activities</h3>
+                            <p class="tab__p">Don’t worry to get bored easily in our cabin. We have so many cabin activities for you to do it alone or with group. Maybe this is the best chance for you to make new friends or even a lover.</p>
+                        </div>
+                        <img src="lib/img/third-img-vine.png" class="tab-img" alt="error">
+                    </div>
+                    <div id="Paris" class="tabcontent">
+                        <div class="tabcontent-body">
+                            <h3 class="tab__h3">100% Organic Food</h3>
+                            <p class="tab__p">We served 100% organic, low process and delicious food. We allow our guest to have breakfast or dinner request.What ever made your taste buds happy.</p> 
+                        </div>
+                        <img class="tab-img" src="lib/img/y-forth-img-pizza.png" alt="error"> 
+                    </div>
+                </div>
+            </section>
+            <section class="betwen-cont">
+                <div class="page-section-bet__container _container">
+                    <div class="page__section-body vet">
+                        <h2 class="page__section-h2">Many Rooms to Choose</h2>
+                        <p class="page__section-p bet__p">There is a room for every needs. We have room for individuals until family size, we also have a cabin for more private experience</p>
+                        <button class="page__section-button" id="show-modal" >Explore more</button>
+                    </div>
+                </div>
+            </section>
+            <section class="page__section page__section_4">
+                <div class="page-section-4__container _container">
+                    <div class="cont-arc">
+                        <div class="rar">
+                            <button class="accordion">Single Room</button>
+                            <div class="panel">
+                            <p>Best for a brave lone wolf who need comfort and quiet quality time, but you still have a chance to meet others.</p>
+                            </div>
+                        </div>
+                        <div class="rar">
+                            <button class="accordion">Double Room</button>
+                            <div class="panel">
+                            <p>Best for couple, seek happiness in intimacy without worry of being disturbed. Feel the whole world just for you two.</p>
+                            </div>
+                        </div>
+                        <div class="rar">
+                            <button class="accordion">Cootage</button>
+                            <div class="panel">
+                            <p>Best for family or group. One cootage can fit up to 5 people. Made stronger bond with your family or friends</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="page__section page__section_5">
+                <div class="page-section-5__container _container">
+                    <div class="slider-container">
+                        <div class="slider">
+                          <img class="slide-img" src="lib/img/y-forth-img-pizza.png" alt="error">
+                          <img class="slide-img" src="lib/img/third-img-vine.png" alt="error">
+                        </div>
+                        <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+                        <button class="next-button" aria-label="Посмотреть следующий слайд">&gt;</button>
+                      </div>
+                </div>
+            </section>
+            <section class="page__section page__section_6">
+                <div class="page-section-6__container _container">
+                    <div class="page__section-body">
+                        <h2 class="page__section-h2 ji">Service categories</h2>
+                        <div class="ara">
+                            <div class="filter">
+                                <button class="button button_all" data-filter="all">All</button>
+                                <button class="button button_clothing" data-filter="clothing">Type of house</button>
+                                <button class="button button_decor" data-filter="decor">Decor</button>
+                                <button class="button button_bags" data-filter="bags">Food</button>
+                        </div>
+                        <div class="container1">
+                            <div class="card clothing">Single Room</div>
+                            <div class="card decor">Decoration</div>
+                            <div class="card bags">Salad</div>
+                            <div class="card decor">For house</div>
+                            <div class="card clothing">Double Room</div>
+                            <div class="card bags">Pizza</div>
+                            <div class="card bags">Other menu</div>
+                            <div class="card decor">For rooms</div>
+                            <div class="card clothing">Cootage</div>
+                          </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
